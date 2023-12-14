@@ -1,0 +1,37 @@
+
+<form [formGroup]="Registration">
+    <div class="form-group">
+        <label>username</label>
+        <input type="text" formControlName='username' #uname class="form-control">
+    </div>
+    <div class="form-group">
+        <label>password</label>
+        <input type="text" formControlName='password' class="form-control">
+    </div>
+    <div class="form-group">
+        <label>confirm Password</label>
+        <input type="text" formControlName='confirmpsw' class="form-control">
+    </div>
+    <div formGroupName="adress">
+        <div class="form-group">
+        <label>house</label>
+        <input type="text" formControlName= 'house' class="form-control">
+        </div>
+    
+        <div class="form-group">
+        <label>place</label>
+        <input type="text" formControlName= 'place' class="form-control">
+        </div>
+   
+        <div class="form-group">
+        <label>city</label>
+        <input type="text" formControlName= 'city' class="form-control">
+        </div>
+
+    </div>
+
+    
+        
+        <button class="btn btn-succcess">Register</button>
+    
+</form>

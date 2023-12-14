@@ -1,0 +1,57 @@
+.navgbar2{
+    background-color:#3498db;
+    text-align: center;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    height: 100vh; /* 100% of the viewport height */
+  }
+  
+  .left-side, .right-side {
+    padding: 20px;
+    
+  }
+  .left{
+    width:60%;
+    margin-top: 116px;
+  }
+  .right{
+    
+    margin-top: 116px
+  }
+  .content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Customize social icon images based on your icons */
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+  .navbar-brand{
+    color: #fff;
+  }
